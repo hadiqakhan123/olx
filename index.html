@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olx clone</title>
+    <link rel="shortcut icon" href="Images/olx logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <div class="header">
+        <div class="top-bar-items">
+            <img src="Images/Logo.png" alt="Logo" width="50px">
+        </div>
+
+        <div class="top-bar-items">
+            <a href=""><i class="fa-solid fa-car"></i>
+                Motors</a>
+        </div>
+
+        <div class="top-bar-items">
+            <a href=""><i class="fa-regular fa-building"></i>
+                Property</a>
+        </div>
+
+        <div class="header-bottom">
+            <div class="top-bar-items">
+                <img src="Images/logob.png" alt="" width="60px">
+            </div>
+
+            <div class="top-bar-items">
+                <!-- <input class="search-input" type="search"> -->
+                <select class="selectInput" name="" id="">
+                    <option value="khi">Karachi</option>
+                    <option value="lhr">Lahore</option>
+                    <option value="isb">Islamabad</option>
+                    <option value="pes">Peshawar</option>
+                </select>
+            </div>
+            <div class="top-bar-items">
+                <input class="selectInput search" type="search" name="" id=""
+                    placeholder="Find Cars, Mobile Phones and more..." /><i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+
+            <div class="top-bar-items">
+                <i class="fa-regular fa-comment top-bar-icons"></i>
+                <i class="fa-regular fa-bell top-bar-icons"></i>
+                <button class="Sell-button">
+                    <i class="fa-solid fa-plus"></i>Sell</button>
+            </div>
+
+            <div class="header-bottom-bar">
+                <div>
+                    <ul class="navbar-menu-cat">
+                        <li class="txt-bold li-menu">
+                            <strong>All Categories</strong>
+                            <i class="fa-solid fa-angle-down"></i>
+                        </li>
+                        <li class="li-menu">Mobile Phones</li>
+                        <li  class="li-menu">Cars</li>
+                        <li  class="li-menu">Motorcycle</li>
+                        <li  class="li-menu">House</li>
+                        <li  class="li-menu">TV - Audion - Video</li>
+                        <li  class="li-menu">Tablets</li>
+                        <li  class="li-menu">Land & Plots</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="head-add">
+        <img class="mySlides" src="Images/Banner.webp" width="1290px">
+        <!-- <img class="mySlides" src="Images/Banner.webp" width="1000px" height=200px">
+        <img class="mySlides" src="Images/Banner.webp" width="1000px" height=200px"> -->
+      </div>
+
+      <!-- --------------------------------All categories---------------------------------------- -->
+
+      <div class="cat-area">
+        <h4>All Categories</h4>
+      </div>
+      <div class="cat-card">
+        <img src="Images/phone.png" alt="">
+        <p>Mobiles</p>
+      </div>
+      <div class="cat-card">
+        <img src="Images/vechicles.png" alt="">
+        <p>Vehicles</p>
+      </div>
+      <div class="cat-card">
+        <img src="Images/House.png" alt="">
+        <p>Property For Sale</p>
+      </div>
+      <div class="cat-card">
+        <img src="Images/Key.png" alt="">
+        <p>Property For Rent</p>
+      </div>
+      <div class="cat-card">
+        <img src="Images/Camera.png" alt="">
+        <p>Electronics & Home Appliances</p>
+      </div>
+      <div class="cat-card">
+        <img src="Images/Bike.png" alt="">
+        <p>Bike</p>
+      </div>
+      <div class="cat-card">
+        <img src="Images/Jeep.png" alt="">
+        <p>Business, Industrial & Agriculture</p>
+      </div>      <div class="cat-card">
+        <img src="Images/Services.png" alt="">
+        <p>Services</p>
+      </div>
+      <div class="cat-card">
+        <img src="Images/Job.png" alt="">
+        <p>Jobs</p>
+      </div>
+      <div class="cat-card">
+        <img src="Images/Animals.png" alt="">
+        <p>Animals</p>
+      </div>
+      <div class="cat-card">
+        <img src="Images/Furniture.png" alt="">
+        <p>Furniture & Home Decor</p>
+      </div>
+      <div class="cat-card">
+        <img src="Images/Fashion.png" alt="">
+        <p>Fashion & Beauty</p>
+      </div>
+      <div class="cat-card">
+        <img src="Images/Book.png" alt="">
+        <p>Books, Sports & Hobbies</p>
+      </div>
+      <div class="cat-card">
+        <img src="Images/Kids.png" alt="">
+        <p>Kids</p>
+      </div>
+
+
+     <!-- ------------------------------------ CARDS MOBILES------------------------------------ -->
+      <div class="cat-area">
+      </div>
+
+      <div class="clasifieds-cards-area">
+        <h4>Mobile Phones</h4>
+        
+        <div class="ad-card">
+            <img src="Images/Mobile1.webp" alt="">
+
+            <div>
+                <p class="pricing">
+                  Rs. 99,000
+                   <span class="heart-icon"
+                  ><i class="fa-regular fa-heart"></i
+                  ></span>
+                </p>
+            </div>
+            <div class="ad-desc">
+              <p>I PHONE li JV</p>
+            </div>
+
+            <div class="location">
+              <p>Saddar, Karachi </p>
+              <p class="small-txt">1 week ago</p>
+            </div>
+        </div>
+
+        <div class="ad-card">
+          <img src="Images/Mobile2.webp" alt="">
+
+          <div>
+              <p class="pricing">
+                Rs. 86,000
+                 <span class="heart-icon"
+                ><i class="fa-regular fa-heart"></i
+                ></span>
+              </p>
+          </div>
+          <div class="ad-desc">
+            <p>I PHONE li JV</p>
+          </div>
+          <div class="location">
+            <p>Saddar, Karachi </p>
+            <p class="small-txt">1 week ago</p>
+          </div>
+      </div>
+
+      <div class="ad-card">
+        <img src="Images/Mobile5.webp" alt="">
+
+        <div>
+            <p class="pricing">
+              Rs. 93,000
+               <span class="heart-icon"
+              ><i class="fa-regular fa-heart"></i
+              ></span>
+            </p>
+        </div>
+        <div class="ad-desc">
+          <p>I PHONE li JV</p>
+        </div>
+        <div class="location">
+          <p>Saddar, Karachi </p>
+          <p class="small-txt">1 week ago</p>
+        </div>
+    </div>
+
+    <div class="ad-card">
+      <img src="Images/Mobile3.webp" alt="">
+
+      <div>
+          <p class="pricing">
+            Rs. 76,000
+             <span class="heart-icon"
+            ><i class="fa-regular fa-heart"></i
+            ></span>
+          </p>
+      </div>
+      <div class="ad-desc">
+        <p>I PHONE li JV</p>
+      </div>
+      <div class="location">
+        <p>Saddar, Karachi </p>
+        <p class="small-txt">1 week ago</p>
+      </div>
+  </div>
+      </div>
+
+
+      <!-- ---------------------------------------CARDS CARS------------------------------------ -->
+      <div class="clasifieds-cards-area">
+        <h4>Cars</h4>
+        
+        <div class="ad-card">
+            <img src="Images/Car1.webp" alt="">
+
+            <div>
+                <p class="pricing">
+                  Rs 4,700,000
+                   <span class="heart-icon"
+                  ><i class="fa-regular fa-heart"></i
+                  ></span>
+                </p>
+            </div>
+            <div class="ad-desc">
+              <p>Honda Civic VTi Oriel 2009</p>
+            </div>
+
+            <div class="location">
+              <p>Valencia Town, Lahore</p>
+              <p class="small-txt">1 week ago</p>
+            </div>
+        </div>
+
+        <div class="ad-card">
+          <img src="Images/Car2.webp" alt="">
+
+          <div>
+              <p class="pricing">
+                Rs 33,000,000
+                 <span class="heart-icon"
+                ><i class="fa-regular fa-heart"></i
+                ></span>
+              </p>
+          </div>
+          <div class="ad-desc">
+            <p>Mercedes C Class 2021</p>
+          </div>
+          <div class="location">
+            <p>Wapda Town Phase 2, Multan </p>
+            <p class="small-txt">1 week ago</p>
+          </div>
+      </div>
+
+      <div class="ad-card">
+        <img src="Images/Car3.webp" alt="">
+
+        <div>
+            <p class="pricing">
+              Rs 7,800,000
+               <span class="heart-icon"
+              ><i class="fa-regular fa-heart"></i
+              ></span>
+            </p>
+        </div>
+        <div class="ad-desc">
+          <p>Proton Saga R-3 Limited (2021)</p>
+        </div>
+        <div class="location">
+          <p>Multan Bypass, Multan</p>
+          <p class="small-txt">1 week ago</p>
+        </div>
+    </div>
+
+    <div class="ad-card">
+      <img src="Images/Car4.webp" alt="">
+
+      <div>
+          <p class="pricing">
+            Rs 7,890,000
+             <span class="heart-icon"
+            ><i class="fa-regular fa-heart"></i
+            ></span>
+          </p>
+      </div>
+      <div class="ad-desc">
+        <p>Toyota Hilux Vigo champ Model 2015</p>
+      </div>
+      <div class="location">
+        <p>DHA Defence, Lahore</p>
+        <p class="small-txt">1 week ago</p>
+      </div>
+  </div>
+      </div>
+
+
+      <!-- -------------------------------Bikes & Motorcycles------------------------------------- -->
+
+      <div class="clasifieds-cards-area">
+        <h4>Bikes & Motorcycles</h4>
+        
+        <div class="ad-card">
+            <img src="Images/Bike2.webp" alt="">
+
+            <div>
+                <p class="pricing">
+                  Rs 980,000
+                   <span class="heart-icon"
+                  ><i class="fa-regular fa-heart"></i
+                  ></span>
+                </p>
+            </div>
+            <div class="ad-desc">
+              <p>new Kawasaki sports heavy bikes</p>
+            </div>
+
+            <div class="location">
+              <p>VDHA Phase 1, Lahore</p>
+              <p class="small-txt">1 week ago</p>
+            </div>
+        </div>
+
+        <div class="ad-card">
+          <img src="Images/Bike3.webp" alt="">
+
+          <div>
+              <p class="pricing">
+                Rs 5,999,000
+                 <span class="heart-icon"
+                ><i class="fa-regular fa-heart"></i
+                ></span>
+              </p>
+          </div>
+          <div class="ad-desc">
+            <p>chopper 400cc water cool engine</p>
+          </div>
+          <div class="location">
+            <p>Canal View Road, Gujranwala</p>
+            <p class="small-txt">1 week ago</p>
+          </div>
+      </div>
+
+      <div class="ad-card">
+        <img src="Images/Bike5.webp" alt="">
+
+        <div>
+            <p class="pricing">
+              Rs 524,000
+               <span class="heart-icon"
+              ><i class="fa-regular fa-heart"></i
+              ></span>
+            </p>
+        </div>
+        <div class="ad-desc">
+          <p>Yamaha YBR 125G Matte Grey 2024 </p>
+        </div>
+        <div class="location">
+          <p>Misryal Road, Rawalpindi</p>
+          <p class="small-txt">1 week ago</p>
+        </div>
+    </div>
+
+    <div class="ad-card">
+      <img src="Images/Bike6.webp" alt="">
+
+      <div>
+          <p class="pricing">
+            Rs 599,000
+             <span class="heart-icon"
+            ><i class="fa-regular fa-heart"></i
+            ></span>
+          </p>
+      </div>
+      <div class="ad-desc">
+        <p>Super star 200cc brand new</p>
+      </div>
+      <div class="location">
+        <p>Iqbal Colony, Sargodha</p>
+        <p class="small-txt">1 week ago</p>
+      </div>
+  </div>
+      </div>
+
+
+      <!-- ------------------------------------HOUSE--------------------------------------- -->
+
+      <div class="clasifieds-cards-area">
+        <h4>House</h4>
+        
+        <div class="ad-card">
+            <img src="Images/Home4.webp" alt="">
+
+            <div>
+                <p class="pricing">
+                  Rs 908,000
+                   <span class="heart-icon"
+                  ><i class="fa-regular fa-heart"></i
+                  ></span>
+                </p>
+            </div>
+            <div class="ad-desc">
+              <p>new Kawasaki sports heavy bikes</p>
+            </div>
+
+            <div class="location">
+              <p>VDHA Phase 1, Lahore</p>
+              <p class="small-txt">1 week ago</p>
+            </div>
+        </div>
+
+        <div class="ad-card">
+          <img src="Images/Home5.webp" alt="">
+
+          <div>
+              <p class="pricing">
+                Rs 2,789,000
+                 <span class="heart-icon"
+                ><i class="fa-regular fa-heart"></i
+                ></span>
+              </p>
+          </div>
+          <div class="ad-desc">
+            <p>chopper 400cc water cool engine</p>
+          </div>
+          <div class="location">
+            <p>Canal View Road, Gujranwala</p>
+            <p class="small-txt">1 week ago</p>
+          </div>
+      </div>
+
+      <div class="ad-card">
+        <img src="Images/Home6.webp"">
+
+        <div>
+            <p class="pricing">
+              Rs 890,000
+               <span class="heart-icon"
+              ><i class="fa-regular fa-heart"></i
+              ></span>
+            </p>
+        </div>
+        <div class="ad-desc">
+          <p>Yamaha YBR 125G Matte Grey 2024 </p>
+        </div>
+        <div class="location">
+          <p>Misryal Road, Rawalpindi</p>
+          <p class="small-txt">1 week ago</p>
+        </div>
+    </div>
+
+    <div class="ad-card">
+      <img src="Images/Home7.webp" alt="">
+
+      <div>
+          <p class="pricing">
+            Rs 667,000
+             <span class="heart-icon"
+            ><i class="fa-regular fa-heart"></i
+            ></span>
+          </p>
+      </div>
+      <div class="ad-desc">
+        <p>Super star 200cc brand new</p>
+      </div>
+      <div class="location">
+        <p>Iqbal Colony, Sargodha</p>
+        <p class="small-txt">1 week ago</p>
+      </div>
+  </div>
+      </div>
+
+
+      <!-- ------------------------------Video-Audios------------------------------- -->
+
+      <div class="clasifieds-cards-area">
+        <h4>Video-Audios</h4>
+        
+        <div class="ad-card">
+            <img src="Images/Vedio1.webp" alt="">
+
+            <div>
+                <p class="pricing">
+                  Rs 990,000
+                   <span class="heart-icon"
+                  ><i class="fa-regular fa-heart"></i
+                  ></span>
+                </p>
+            </div>
+            <div class="ad-desc">
+              <p>new Kawasaki sports heavy bikes</p>
+            </div>
+
+            <div class="location">
+              <p>VDHA Phase 1, Lahore</p>
+              <p class="small-txt">1 week ago</p>
+            </div>
+        </div>
+
+        <div class="ad-card">
+          <img src="Images/Vedio2.webp" alt="">
+
+          <div>
+              <p class="pricing">
+                Rs 1,250,000
+                 <span class="heart-icon"
+                ><i class="fa-regular fa-heart"></i
+                ></span>
+              </p>
+          </div>
+          <div class="ad-desc">
+            <p>chopper 400cc water cool engine</p>
+          </div>
+          <div class="location">
+            <p>Canal View Road, Gujranwala</p>
+            <p class="small-txt">1 week ago</p>
+          </div>
+      </div>
+
+      <div class="ad-card">
+        <img src="Images/vedio3.webp"">
+
+        <div>
+            <p class="pricing">
+              Rs 425,000
+               <span class="heart-icon"
+              ><i class="fa-regular fa-heart"></i
+              ></span>
+            </p>
+        </div>
+        <div class="ad-desc">
+          <p>Yamaha YBR 125G Matte Grey 2024 </p>
+        </div>
+        <div class="location">
+          <p>Misryal Road, Rawalpindi</p>
+          <p class="small-txt">1 week ago</p>
+        </div>
+    </div>
+
+    <div class="ad-card">
+      <img src="Images/Vedio4.jpeg" alt="">
+
+      <div>
+          <p class="pricing">
+            Rs 550,000
+             <span class="heart-icon"
+            ><i class="fa-regular fa-heart"></i
+            ></span>
+          </p>
+      </div>
+      <div class="ad-desc">
+        <p>Super star 200cc brand new</p>
+      </div>
+      <div class="location">
+        <p>Iqbal Colony, Sargodha</p>
+        <p class="small-txt">1 week ago</p>
+      </div>
+  </div>
+      </div>
+
+
+      <!-- --------------------------------Tablets-------------------------------->
+
+      <div class="clasifieds-cards-area">
+        <h4>Tablets</h4>
+        
+        <div class="ad-card">
+            <img src="Images/Tablet1.webp" alt="">
+
+            <div>
+                <p class="pricing">
+                  Rs 750,000
+                   <span class="heart-icon"
+                  ><i class="fa-regular fa-heart"></i
+                  ></span>
+                </p>
+            </div>
+            <div class="ad-desc">
+              <p>new Kawasaki sports heavy bikes</p>
+            </div>
+
+            <div class="location">
+              <p>VDHA Phase 1, Lahore</p>
+              <p class="small-txt">1 week ago</p>
+            </div>
+        </div>
+
+        <div class="ad-card">
+          <img src="Images/Tablet2.webp" alt="">
+
+          <div>
+              <p class="pricing">
+                Rs 1,250,000
+                 <span class="heart-icon"
+                ><i class="fa-regular fa-heart"></i
+                ></span>
+              </p>
+          </div>
+          <div class="ad-desc">
+            <p>chopper 400cc water cool engine</p>
+          </div>
+          <div class="location">
+            <p>Canal View Road, Gujranwala</p>
+            <p class="small-txt">1 week ago</p>
+          </div>
+      </div>
+
+      <div class="ad-card">
+        <img src="Images/Tablet3.jpeg"">
+
+        <div>
+            <p class="pricing">
+              Rs 425,000
+               <span class="heart-icon"
+              ><i class="fa-regular fa-heart"></i
+              ></span>
+            </p>
+        </div>
+        <div class="ad-desc">
+          <p>Yamaha YBR 125G Matte Grey 2024 </p>
+        </div>
+        <div class="location">
+          <p>Misryal Road, Rawalpindi</p>
+          <p class="small-txt">1 week ago</p>
+        </div>
+    </div>
+
+    <div class="ad-card">
+      <img src="Images/Tablet4.webp" alt="">
+
+      <div>
+          <p class="pricing">
+            Rs 550,000
+             <span class="heart-icon"
+            ><i class="fa-regular fa-heart"></i
+            ></span>
+          </p>
+      </div>
+      <div class="ad-desc">
+        <p>Super star 200cc brand new</p>
+      </div>
+      <div class="location">
+        <p>Iqbal Colony, Sargodha</p>
+        <p class="small-txt">1 week ago</p>
+      </div>
+  </div>
+      </div>
+
+
+      <!-- -------------------------------Land & Plots-------------------------------- -->
+
+      <div class="clasifieds-cards-area">
+        <h4>Land & Plots</h4>
+        
+        <div class="ad-card">
+            <img src="Images/Land1.webp" alt="">
+
+            <div>
+                <p class="pricing">
+                  Rs 45,000,000
+                   <span class="heart-icon">
+                  <i class="fa-regular fa-heart"></i>
+                  </span>
+                </p>
+            </div>
+            <div class="ad-desc">
+              <p>Farm House Land For Sale Kuri Road</p>
+            </div>
+
+            <div class="location">
+              <p>PHAF Officers Residencia, Islamabad</p>
+              <p class="small-txt">1 week ago</p>
+            </div>
+        </div>
+
+        <div class="ad-card">
+          <img src="Images/Land2.webp" alt="">
+
+          <div>
+              <p class="pricing">
+                Rs 120,0000
+                 <span class="heart-icon"
+                ><i class="fa-regular fa-heart"></i
+                ></span>
+              </p>
+          </div>
+          <div class="ad-desc">
+            <p>Residential Plot For Sale In Mouza </p>
+          </div>
+          <div class="location">
+            <p>Mouza Kalmat, Gwadar</p>
+            <p class="small-txt">1 week ago</p>
+          </div>
+      </div>
+
+      <div class="ad-card">
+        <img src="Images/Land3.webp"">
+
+        <div>
+            <p class="pricing">
+              Rs 8,300,000
+               <span class="heart-icon"
+              ><i class="fa-regular fa-heart"></i
+              ></span>
+            </p>
+        </div>
+        <div class="ad-desc">
+          <p>8 Marla Double Road For Sale </p>
+        </div>
+        <div class="location">
+          <p>I-16/1, Islamabad</p>
+          <p class="small-txt">1 week ago</p>
+        </div>
+    </div>
+
+    <div class="ad-card">
+      <img src="Images/Land4.webp" alt="">
+
+      <div>
+          <p class="pricing">
+            Rs 7,500,000
+             <span class="heart-icon"
+            ><i class="fa-regular fa-heart"></i
+            ></span>
+          </p>
+      </div>
+      <div class="ad-desc">
+        <p>5 Marla Residential Plot for Sale
+        </p>
+      </div>
+      <div class="location">
+        <p>DHA Phase 9 Prism - Block R, Lahore</p>
+        <p class="small-txt">1 week ago</p>
+      </div>
+  </div>
+      </div>
+
+
+      <!-- ----------------------------------Jobs-------------------------------- -->
+
+      <div class="clasifieds-cards-area">
+        <h4>Jobs</h4>
+        
+        <div class="ad-card">
+            <img src="Images/Job1.jpeg" alt="">
+
+            <div>
+                <p class="pricing">
+                  Rs 1,250,000
+                   <span class="heart-icon"
+                  ><i class="fa-regular fa-heart"></i
+                  ></span>
+                </p>
+            </div>
+            <div class="ad-desc">
+              <p>Customer Support Agent</p>
+            </div>
+
+            <div class="location">
+              <p>Allama Iqbal Town, Lahore</p>
+              <p class="small-txt">1 week ago</p>
+            </div>
+        </div>
+
+        <div class="ad-card">
+          <img src="Images/Job2.webp" alt="">
+
+          <div>
+              <p class="pricing">
+                Rs 1,250,000
+                 <span class="heart-icon"
+                ><i class="fa-regular fa-heart"></i
+                ></span>
+              </p>
+          </div>
+          <div class="ad-desc">
+            <p>chopper 400cc water cool engine</p>
+          </div>
+          <div class="location">
+            <p>Canal View Road, Gujranwala</p>
+            <p class="small-txt">1 week ago</p>
+          </div>
+      </div>
+
+      <div class="ad-card">
+        <img src="Images/Job3.webp">
+
+        <div>
+            <p class="pricing">
+
+               <span class="heart-icon"
+              ><i class="fa-regular fa-heart"></i
+              ></span>
+            </p>
+        </div>
+        <div class="ad-desc">
+          <p>Part time Online job/Data Entry/Typing/Assignment/Teaching </p>
+        </div>
+        <div class="location">
+          <p>Jaranwala, Faisalabad</p>
+          <p class="small-txt">1 week ago</p>
+        </div>
+    </div>
+
+    <div class="ad-card">
+      <img src="Images/job4.webp" alt="">
+
+      <div>
+          <p class="pricing">
+            Rs 550,000
+             <span class="heart-icon"
+            ><i class="fa-regular fa-heart"></i
+            ></span>
+          </p>
+      </div>
+      <div class="ad-desc">
+        <p>Super star 200cc brand new</p>
+      </div>
+      <div class="location">
+        <p>Iqbal Colony, Sargodha</p>
+        <p class="small-txt">1 week ago</p>
+      </div>
+  </div>
+      </div>
+
+
+<!-- ----------------------------Footer Section-------------------------------------- -->
+<div class="footerA">
+  <img src="Images/Last image.png" alt="" width="">
+</div>
+
+<div class="footerB">
+  <img class="bottom-link-img" src="Images/New image.png" alt="">
+</div>
+<div class="footer">
+<div class="footer-column">
+  <p class="footer-links-head"><strong>POPULAR CATEOGORIES</strong></p>
+  <ul>
+    <li class="footer-links">Cars</li>
+    <li class="footer-links">Flats for rent</li>
+    <li class="footer-links">Mobile Phones</li>
+    <li class="footer-links">Jobs</li>
+  </ul>
+</div>
+
+
+ <div class="footer-column">
+  <p class="footer-links-head"><strong>POPULAR CATEOGORIES</strong></p>
+  <ul>
+    <li class="footer-links">Cars</li>
+    <li class="footer-links">Flats for rent</li>
+    <li class="footer-links">Mobile Phones</li>
+    <li class="footer-links">Jobs</li>
+  </ul>
+</div> 
+
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

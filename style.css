@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+.header,
+.footerB {
+    background-color: #f7f8f8;
+    padding: 20px;
+    padding-left: 80px;
+    text-transform: uppercase;
+    font-size: 0.8em;
+}
+
+.header-bottom-bar{
+    padding: 20px;
+    padding-left: 80px;
+    box-shadow: 0 1px 1px #00000041;
+}
+
+a{
+    text-decoration: none;
+}
+
+.top-bar-items{
+    padding: 10px;
+    display: inline-block;
+    padding-bottom: 2px;
+    padding-top: 2px;
+}
+
+.header-bottom{
+    padding-top: 10px;
+}
+
+.selectInput{
+    padding: 15px;
+    width: 220px;
+    font-size: 15px;
+}
+
+.search{
+    width: 43vw;
+    
+}
+
+.fa-magnifying-glass{
+    background-color: #002f34;
+    color: #fff;
+    padding: 20px;
+}
+
+.Sell-button{
+    border-bottom: 6px solid #3a77ff;
+    border-top: 6px solid #3a77ff;
+    border-left: 6px solid #ffce32;
+    border-right: 6px solid #23e5db;
+    border-radius: 30px;
+    background-color: #fff;
+    padding: 15px;
+    margin-left: 20px;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+.top-bar-icons{
+    padding: 20px;
+    font-size:20px ;
+}
+
+.li-menu {
+    display: inline-block;
+    padding-right: 10px;
+    font-size: 0.9em;
+}
+
+.li-menu:hover{
+    cursor: pointer;
+    color: #46aca9;
+}
+
+.txt-bold{
+    font-weight: bold;
+}
+
+.mySlides{
+    border-radius: 5px;
+}
+
+.head-add,
+.cat-area,
+.clasifieds-cards-area {
+    padding-left: 40px;
+    margin-top: 50px;
+}
+
+h4{
+    font-weight: bold;
+}
+
+.cat-card{
+    font-weight: bold;
+    max-width: 100px;
+    display: inline-block; 
+    cursor: pointer;
+    text-align: center; 
+     margin-left: 50px; 
+    /* margin: 20px 20px;
+    margin-left: 0; */
+    margin-top: 10px; 
+}
+
+.cat-card img{
+    width: 80px;
+}
+
+.ad-card{
+    cursor: pointer;
+    display: inline-block;
+    border: 1px solid #bfbfbf;
+    width: 300px;
+    margin: 20px 5px;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.ad-card img{
+    width: 100%;
+    height: 155px;
+    object-fit: cover;
+}
+
+.pricing{
+    padding: 10px;
+    font-weight: bold;
+}
+
+.ad-desc,
+.location{
+    padding: 10px;
+}
+
+.fa-heart{
+    float: right;
+}
+
+.small-txt{
+    font-size: 12px;
+    color: #6c6c6c;
+    margin-top: 5px;
+}
+
+.footerA{
+    margin-left: 210px;
+    margin-top: 25px;
+}
+
+.footerB{
+    margin-top: 20px;
+}
+
+.bottom-link-img{
+    width: 100%;
+}
+
+.footer-links-head{
+    margin-bottom: 10px;
+     margin-left: 175px; 
+     font-size: 10px;
+     font-weight: bold;
+}
+
+
+.footer-links{
+    list-style-type: none;
+    margin-bottom: 3px;
+    color: #6c6c6c;
+    margin-left: 176px;
+    font-size: 10px;
+}
+
+.footer-column{
+    display: inline-block;
+    width: 300px;
+    margin-right: 20px;
+}
